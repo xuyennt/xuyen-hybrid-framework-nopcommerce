@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-31T07:13:08Z" name="Default suite" finished-at="2023-03-31T07:13:13Z" duration-ms="4698">
+  <suite started-at="2023-04-03T07:18:37Z" name="Default suite" finished-at="2023-04-03T07:18:44Z" duration-ms="7476">
     <groups>
     </groups>
-    <test started-at="2023-03-31T07:13:08Z" name="Default test" finished-at="2023-03-31T07:13:13Z" duration-ms="4698">
+    <test started-at="2023-04-03T07:18:37Z" name="Default test" finished-at="2023-04-03T07:18:44Z" duration-ms="7476">
       <class name="javaBasic.xuyentest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-03-31T07:13:08Z" name="beforeClass" finished-at="2023-03-31T07:13:13Z" duration-ms="4569" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-04-03T07:18:37Z" name="beforeClass" finished-at="2023-04-03T07:18:41Z" duration-ms="4516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Url()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-03-31T07:13:13Z" name="TC_01_Url" finished-at="2023-03-31T07:13:13Z" duration-ms="9" status="PASS">
+        <test-method signature="TC_01_Url()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-04-03T07:18:41Z" name="TC_01_Url" finished-at="2023-04-03T07:18:41Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Url -->
-        <test-method signature="TC_02_Logo()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-03-31T07:13:13Z" name="TC_02_Logo" finished-at="2023-03-31T07:13:13Z" duration-ms="65" status="PASS">
+        <test-method signature="TC_02_Logo()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-04-03T07:18:41Z" name="TC_02_Logo" finished-at="2023-04-03T07:18:41Z" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Logo -->
-        <test-method signature="TC_03_Form()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-03-31T07:13:13Z" name="TC_03_Form" finished-at="2023-03-31T07:13:13Z" duration-ms="41" status="PASS">
+        <test-method signature="TC_03_Form()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-04-03T07:18:41Z" name="TC_03_Form" finished-at="2023-04-03T07:18:41Z" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Form -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-03-31T07:13:13Z" name="afterClass" finished-at="2023-03-31T07:13:13Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:javaBasic.xuyentest@7eac9008]" started-at="2023-04-03T07:18:41Z" name="afterClass" finished-at="2023-04-03T07:18:44Z" duration-ms="2846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
