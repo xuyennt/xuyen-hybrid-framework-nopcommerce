@@ -8,13 +8,34 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">7,476</td><td></td><td></td></tr>
+<tr><th colspan="7">NopCommerce</th></tr>
+<tr><td><a href="#t0">Run on Firefox</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,286</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">javaBasic.xuyentest</td><td><a href="#m0">TC_01_Url</a></td><td rowspan="1">1680506321878</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m1">TC_02_Logo</a></td><td rowspan="1">1680506321885</td><td rowspan="1">51</td></tr><tr class="passedeven"><td><a href="#m2">TC_03_Form</a></td><td rowspan="1">1680506321938</td><td rowspan="1">41</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NopCommerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nopcommerce.user.Level_02_Apply_BasePage_I</td><td><a href="#m0">TC_02_Register_Invalid_Email</a></td><td rowspan="1">1680767724416</td><td rowspan="1">1358</td></tr><tr><th colspan="4">Run on Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.nopcommerce.user.Level_02_Apply_BasePage_I</td><td><a href="#m1">TC_01_Register_Empty_Data</a></td><td rowspan="1">1680767723324</td><td rowspan="1">1090</td></tr><tr class="passedeven"><td><a href="#m2">TC_03_Register_Success</a></td><td rowspan="1">1680767725778</td><td rowspan="1">1592</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">javaBasic.xuyentest#TC_01_Url</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">javaBasic.xuyentest#TC_02_Logo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">javaBasic.xuyentest#TC_03_Form</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Run on Firefox</h2><h3 id="m0">com.nopcommerce.user.Level_02_Apply_BasePage_I#TC_02_Register_Invalid_Email</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@id=&apos;Email-error&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;WDSCXUYENNT6&apos;, ip: &apos;172.24.93.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.6.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200305175243, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 39148, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ead83098-211c-4b7f-885e-973d228bebae
+*** Element info: {Using=xpath, value=//span[@id=&apos;Email-error&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:90)
+	at commons.BasePage.getElementText(BasePage.java:101)
+	at com.nopcommerce.user.Level_02_Apply_BasePage_I.TC_02_Register_Invalid_Email(Level_02_Apply_BasePage_I.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nopcommerce.user.Level_02_Apply_BasePage_I#TC_01_Register_Empty_Data</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nopcommerce.user.Level_02_Apply_BasePage_I#TC_03_Register_Success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
